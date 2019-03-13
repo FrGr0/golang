@@ -20,7 +20,7 @@ func main() {
             Qry := readfile( "./qry/select_test.sql" )
 
             // *** CONNEXION ORACLE ODBC ***
-            db, sc, err := oraConnect( "GLDDF008", "TPXBAT", "TPXBAT" )
+            db, sc, err := oraConnect( "GLDDF008", "******", "******" )
             fmt.Println( "**************************************************" )
             fmt.Printf(  "[%s] connexion à la BDD Oracle --> OK\n", Now() )
             fmt.Printf(  "[%s] DBStat  : %d\n", Now(), sc )
